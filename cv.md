@@ -47,9 +47,9 @@ Universität Heidelberg
 
 # Language Skills
 - German (native)
-- English (fluent)
-- Chinese (basic)
-- French (basic)
+- English (CEFR C2)
+- Chinese (CEFR B1)
+- French (CEFR B1)
 
 # Coding
 - Mathematica
