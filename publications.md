@@ -12,8 +12,8 @@ ________________
 
 # Selected articles:
 
-**Quantum Corrections in 4d N=1 Infinite Distance Limits and the Weak Gravity Conjecture**
-[arXiv](https://arxiv.org/abs/2011.00024)
+**Quantum Corrections in 4d N=1 Infinite Distance Limits and the Weak Gravity Conjecture**  
+[arXiv](https://arxiv.org/abs/2011.00024)  
 w/ Seung-Joo Lee, Timo Weigand, Max Wiesner
 
 **Swampland Variations on a Theme by KKLT**  
