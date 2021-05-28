@@ -113,7 +113,7 @@ order: 2
         <div class="card-body">
             <div class="row">
                 <div class="col-8">
-                    <h4 class="card-title m-0">PhD in Physics (Dr. rer. nat.)</h4>
+                    <h4 class="card-title m-0">PhD in Physics</h4>
                     <p class="card-subtitle">summa cum laude</p>
                     <p class="card-subtitle">Arnold Sommerfeld PhD prize</p>
                 </div>
