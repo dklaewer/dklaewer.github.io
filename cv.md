@@ -23,7 +23,8 @@ order: 2
                     <p class="card-text mb-0">Johannes Gutenberg University</p>
                 </div>
                 <div class="col-4">
-                    <p class="text-end mb-0">Mainz, Germany</p>
+                    <p class="text-end mb-0 d-none d-sm-block">Mainz, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Mainz</p>
                 </div>
             </div>
         </div>
@@ -43,7 +44,8 @@ order: 2
                     <p class="card-text mb-0">European Organization for Nuclear Research (CERN)</p>
                 </div>
                 <div class="col-4">
-                    <p class="text-end mb-0">Geneva, Switzerland</p>
+                    <p class="text-end mb-0 d-none d-sm-block">Geneva, Switzerland</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Geneva</p>
                 </div>
             </div>
         </div>
@@ -60,10 +62,11 @@ order: 2
             </div>
             <div class="row">
                 <div class="col-8">
-                    <p class="card-text mb-0">Max-Planck-Institute for Physics</p>
+                    <p class="card-text mb-0">Max Planck Institute for Physics</p>
                 </div>
                 <div class="col-4">
-                    <p class="text-end mb-0">Munich, Germany</p>
+                    <p class="text-end mb-0 d-none d-sm-block">Munich, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Munich</p>
                 </div>
             </div>
         </div>
@@ -83,7 +86,8 @@ order: 2
                     <p class="card-text mb-0">Ludwig Maximilian University</p>
                 </div>
                 <div class="col-4">
-                    <p class="text-end mb-0">Munich, Germany</p>
+                    <p class="text-end mb-0 d-none d-sm-block">Munich, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Munich</p>
                 </div>
             </div>
         </div>
@@ -99,11 +103,12 @@ order: 2
                 </div>
             </div>
             <div class="row">
-                <div class="col-8">
+                <div class="col-7">
                     <p class="card-text mb-0">Heidelberg University</p>
                 </div>
-                <div class="col-4">
-                    <p class="text-end mb-0">Heidelberg, Germany</p>
+                <div class="col-5">
+                    <p class="text-end mb-0 d-none d-sm-block">Heidelberg, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Heidelberg</p>
                 </div>
             </div>
         </div>
@@ -126,7 +131,8 @@ order: 2
                     <p class="card-text mb-0">Ludwig Maximilian University</p>
                 </div>
                 <div class="col-4">
-                    <p class="text-end mb-0">Munich, Germany</p>
+                    <p class="text-end mb-0 d-none d-sm-block">Munich, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Munich</p>
                 </div>
             </div>
         </div>
@@ -142,11 +148,12 @@ order: 2
                 </div>
             </div>
             <div class="row">
-                <div class="col-8">
+                <div class="col-7">
                     <p class="card-text mb-0">Heidelberg University</p>
                 </div>
-                <div class="col-4">
-                    <p class="text-end mb-0">Heidelberg, Germany</p>
+                <div class="col-5">
+                    <p class="text-end mb-0 d-none d-sm-block">Heidelberg, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Heidelberg</p>
                 </div>
             </div>
         </div>
@@ -162,11 +169,12 @@ order: 2
                 </div>
             </div>
             <div class="row">
-                <div class="col-8">
+                <div class="col-7">
                     <p class="card-text mb-0">Heidelberg University</p>
                 </div>
-                <div class="col-4">
-                    <p class="text-end mb-0">Heidelberg, Germany</p>
+                <div class="col-5">
+                    <p class="text-end mb-0 d-none d-sm-block">Heidelberg, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Heidelberg</p>
                 </div>
             </div>
         </div>

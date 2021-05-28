@@ -5,12 +5,6 @@ permalink: /conferences/
 order: 4
 ---
 
-<style>
-.eventinfo{
-    justify-content: flex-start;
-}
-</style>
-
 <div class="container">
 <h4>Attended Conferences, Workshops and Schools</h4>
     <div class="row event mb-3">

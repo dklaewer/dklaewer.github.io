@@ -5,12 +5,6 @@ permalink: /talks/
 order: 3
 ---
 
-<style>
-.eventinfo{
-    justify-content: flex-start;
-}
-</style>
-
 <div class="container">
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">

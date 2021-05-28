@@ -12,13 +12,13 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
-            <h4 class="card-title mt-0">Quantum Corrections in 4D N=1 Infinite Distance Limits and the Weak Gravity Conjecture</h4>
+            <h4 class="card-title mt-0 mb-3 text-center">Quantum Corrections in 4D N=1 Infinite Distance Limits and the Weak Gravity Conjecture</h4>
         </div>
         <div class="row">
-            <div class="col-10">
+            <div class="col-8">
                 <div class="card-subtitle">with Seung-Joo Lee, Timo Weigand, Max Wiesner</div>
             </div>
-            <div class="col-2">
+            <div class="col-4 text-end">
                 Nov 2021
             </div>
         </div>
@@ -30,7 +30,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     </div>
     <div class="card-footer">
     <p class="mb-0">
-        <a href="https://doi.org/10.1007/JHEP03(2021)252" class="card-link">Journal of High Energy Physics</a>
+        <a href="https://doi.org/10.1007/JHEP03(2021)252" class="card-link">JHEP</a>
         <a href="https://arxiv.org/abs/2011.00024" class="card-link">arXiv</a>
     </p>
     </div>
@@ -39,13 +39,13 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
-            <h4 class="card-title mt-0">Swampland Variations on a Theme by KKLT</h4>
+            <h4 class="card-title mt-0 mb-3 text-center">Swampland Variations on a Theme by KKLT</h4>
         </div>
         <div class="row">
-            <div class="col-10">
+            <div class="col-8">
                 <div class="card-subtitle">with Ralph Blumenhagen, Lorenz Schlechter</div>
             </div>
-            <div class="col-2">
+            <div class="col-4 text-end">
                 Feb 2019
             </div>
         </div>
@@ -57,7 +57,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     </div>
     <div class="card-footer">
     <p class="mb-0">
-        <a href="https://doi.org/10.1007/JHEP05(2019)152" class="card-link">Journal of High Energy Physics</a>
+        <a href="https://doi.org/10.1007/JHEP05(2019)152" class="card-link">JHEP</a>
         <a href="https://arxiv.org/abs/1902.07724" class="card-link">arXiv</a>
     </p>
     </div>
@@ -66,13 +66,13 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
-            <h4 class="card-title mt-0">A Spin‐2 Conjecture on the Swampland</h4>
+            <h4 class="card-title mt-0 mb-3 text-center">A Spin‐2 Conjecture on the Swampland</h4>
         </div>
         <div class="row">
-            <div class="col-10">
+            <div class="col-8">
                 <div class="card-subtitle">with Dieter Lüst, Eran Palti</div>
             </div>
-            <div class="col-2">
+            <div class="col-4 text-end">
                 Nov 2018
             </div>
         </div>
@@ -93,13 +93,13 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
-            <h4 class="card-title mt-0">Machine Learning Line Bundle Cohomologies of Hypersurfaces in Toric Varieties</h4>
+            <h4 class="card-title mt-0 mb-3 text-center">Machine Learning Line Bundle Cohomologies of Hypersurfaces in Toric Varieties</h4>
         </div>
         <div class="row">
-            <div class="col-10">
+            <div class="col-8">
                 <div class="card-subtitle">with Lorenz Schlechter</div>
             </div>
-            <div class="col-2">
+            <div class="col-4 text-end">
                 Sep 2018
             </div>
         </div>
@@ -111,7 +111,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     </div>
     <div class="card-footer">
     <p class="mb-0">
-        <a href="https://doi.org/10.1016/j.physletb.2019.01.002" class="card-link">Physics Letters B</a>
+        <a href="https://doi.org/10.1016/j.physletb.2019.01.002" class="card-link">Phys. Lett. B</a>
         <a href="https://arxiv.org/abs/1809.02547" class="card-link">arXiv</a>
     </p>
     </div>
@@ -120,13 +120,13 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
-            <h4 class="card-title mt-0">The Refined Swampland Distance Conjecture in Calabi-Yau Moduli Spaces</h4>
+            <h4 class="card-title mt-0 mb-3 text-center">The Refined Swampland Distance Conjecture in Calabi-Yau Moduli Spaces</h4>
         </div>
         <div class="row">
-            <div class="col-10">
+            <div class="col-8">
                 <div class="card-subtitle">with Ralph Blumenhagen, Lorenz Schlechter, Florian Wolf</div>
             </div>
-            <div class="col-2">
+            <div class="col-4 text-end">
                 Mar 2018
             </div>
         </div>
@@ -138,7 +138,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     </div>
     <div class="card-footer">
     <p class="mb-0">
-        <a href="https://doi.org/10.1007/JHEP06(2018)052" class="card-link">Journal of High Energy Physics</a>
+        <a href="https://doi.org/10.1007/JHEP06(2018)052" class="card-link">JHEP</a>
         <a href="https://arxiv.org/abs/1803.04989" class="card-link">arXiv</a>
     </p>
     </div>
@@ -147,13 +147,13 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
-            <h4 class="card-title mt-0">Super-Planckian Spatial Field Variations and Quantum Gravity</h4>
+            <h4 class="card-title mt-0 mb-3 text-center">Super-Planckian Spatial Field Variations and Quantum Gravity</h4>
         </div>
         <div class="row">
-            <div class="col-10">
+            <div class="col-8">
                 <div class="card-subtitle">with Eran Palti</div>
             </div>
-            <div class="col-2">
+            <div class="col-4 text-end">
                 Oct 2016
             </div>
         </div>
@@ -165,7 +165,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     </div>
     <div class="card-footer">
     <p class="mb-0">
-        <a href="https://doi.org/10.1007/JHEP01(2017)088" class="card-link">Journal of High Energy Physics</a>
+        <a href="https://doi.org/10.1007/JHEP01(2017)088" class="card-link">JHEP</a>
         <a href="https://arxiv.org/abs/1610.00010" class="card-link">arXiv</a>
     </p>
     </div>
