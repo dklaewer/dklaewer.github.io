@@ -4,14 +4,6 @@
 
 layout: home
 ---
-
+<img class="img-responsive" src="/img/mealt.jpg" width="100%">
 <p style="text-align: center;">Hi! I am a theoretical physicist exploring the vast landscape of string theory vacua.<br>
 Please take a look around to learn more about my work!</p>
-
-<!-- :-------------------------:|:-------------------------:
-![](/img/orbifoldlandscape.png)  |  ![](/img/me.jpg) -->
-
-<p float="left">
-  <img src="/img/orbifoldlandscape.png" width="53%" />
-  <img src="/img/me.jpeg" width="42%" /> 
-</p>

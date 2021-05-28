@@ -1,60 +1,233 @@
 ---
 layout: page
-title: CV
+title: Curriculum Vitae
 permalink: /cv/
 order: 2
 ---
 
-# Professional Experience
 
-**2019-now** Postdoctoral Researcher  
-[Johannes Gutenberg-Universität Mainz](https://www.thep.physik.uni-mainz.de)  
-
-**2019** Visiting Scientist  
-[CERN](https://theory.cern/)  
-
-# Education
-
-**2019** Dr. rer. nat. (summa cum laude)  
-[Max-Planck-Institut für Physik](https://www.mpp.mpg.de/) & [Ludwig-Maximilians-Universität München](https://www.theorie.physik.uni-muenchen.de/)
-
-**2017** M.Sc. Physics  
-[Universität Heidelberg (ITP)](https://www.thphys.uni-heidelberg.de/)
-
-**2014** B.Sc. Physics  
-[Universität Heidelberg](https://www.physik.uni-heidelberg.de/)
-
-# Awards and Grants
-
-- [Arnold Sommerfeld PhD prize](https://www.theorie.physik.uni-muenchen.de/studies/promotion/index.html) for the best PhD theses of 2019
-- [Heraeus foundation](https://www.we-heraeus-stiftung.de/) grant for [SCGSC 2019](https://sites.google.com/view/scgsc-2019/homepage)
-- [Heraeus foundation](https://www.we-heraeus-stiftung.de/) grant for [SCGSC 2018](https://sites.google.com/view/scgsc-2018/)
-- G-Research sponsoring for [Career Day 2018](https://indico.mpp.mpg.de/event/5397/overview)
-
-# Teaching
-
-**2017-2019** Teaching Assistant  
-Ludwig-Maximilians-Universität München
-- [Machine Learning in Fundamental Physics](https://www.physik.uni-muenchen.de/lehre/vorlesungen/sose_19/ML_in_Fundamental_Physics/index.html)
-- [String Theory II](https://www.physik.uni-muenchen.de/lehre/vorlesungen/sose_18/TVI_TMP-TD2_-String-Theory-II/index.html)
-- [Introduction to Theoretical Particle Physics](https://www.physik.uni-muenchen.de/lehre/vorlesungen/wise_17_18/teilchenphysik_ws_17_18/index.html)
-
-**2015-2016** Teaching Assistant  
-Universität Heidelberg
-- [Quantum Mechanics](http://uebungen.physik.uni-heidelberg.de/vorlesung/20161/ptp4)
-- [Electrodynamics](http://uebungen.physik.uni-heidelberg.de/vorlesung/20152/568)
-- [Analytical Mechanics and Thermodynamics](http://uebungen.physik.uni-heidelberg.de/vorlesung/20151/ptp2)
-
-# Language Skills
-- German (native)
-- English (CEFR C2)
-- Chinese (CEFR B1)
-- French (CEFR B1)
-
-# Coding
-- Mathematica
-- Python
-- TensorFlow
-- PyTorch
-- C++
-- LaTeX
+<div class="container p-0">
+    <h3 class="pb-3">Professional Experience</h3>
+    <div class="card mb-2 text-white bg-secondary">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">Postdoctoral Research Fellow</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2019-current</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">Johannes Gutenberg University</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Mainz, Germany</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4 class="card-title m-0">Visiting Scientist</h4>
+                </div>
+                <div class="col">
+                    <p class="text-end">2019-2020</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">European Organization for Nuclear Research (CERN)</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Geneva, Switzerland</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">Doctoral Researcher</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2017-2019</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">Max-Planck-Institute for Physics</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Munich, Germany</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">Teaching Assistant</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2017-2019</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">Ludwig Maximilian University</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Munich, Germany</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">Teaching Assistant</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2015-2016</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">Heidelberg University</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Heidelberg, Germany</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="pb-3">Education</h3>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">PhD in Physics (Dr. rer. nat.)</h4>
+                    <p class="card-subtitle">summa cum laude</p>
+                    <p class="card-subtitle">Arnold Sommerfeld PhD prize</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2019</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-8">
+                    <p class="card-text mb-0">Ludwig Maximilian University</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Munich, Germany</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">M. Sc. Physics</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2017</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">Heidelberg University</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Heidelberg, Germany</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">B. Sc. Physics</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2014</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">Heidelberg University</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0">Heidelberg, Germany</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="pb-3">Skills</h3>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title m-0">Software</h4>
+            <p class="card-text m-0">Languages: Python, C++, Java, HTML/CSS</p>
+            <p class="card-text m-0">ML: TensorFlow, Keras, Scikit-learn, PyTorch</p>
+            <p class="card-text m-0">CAS: Mathematica, SageMath, Macaulay2</p>
+            <p class="card-text m-0">Tools: bash, git, svn</p>
+        </div>
+    </div>
+    <h3 class="pb-3">Languages</h3>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4 class="card-title m-0">German</h4>
+                </div>
+                <div class="col">
+                    <p class="text-end mb-0">native</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4 class="card-title m-0">English</h4>
+                </div>
+                <div class="col">
+                    <p class="text-end mb-0">CEFR C2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4 class="card-title m-0">Chinese</h4>
+                </div>
+                <div class="col">
+                    <p class="text-end mb-0">CEFR B1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <h4 class="card-title m-0">French</h4>
+                </div>
+                <div class="col">
+                    <p class="text-end mb-0">CEFR B1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
