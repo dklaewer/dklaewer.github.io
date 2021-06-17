@@ -9,6 +9,23 @@ order: 4
 <h4>Attended Conferences, Workshops and Schools</h4>
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            06/2021
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    String Math
+                </div>
+                <div class="row venue">
+                    virtual conference, Rio de Janeiro
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             05/2021
         </div>
         <div class="col-sm eventinfo">
