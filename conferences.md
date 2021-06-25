@@ -14,6 +14,23 @@ order: 4
         <div class="col-sm eventinfo">
             <div class="container">
                 <div class="row fw-bold title">
+                    Strings
+                </div>
+                <div class="row venue">
+                    virtual conference, ICTP-SAIFR, São Paulo
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
+            06/2021
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
                     String Math
                 </div>
                 <div class="row venue">

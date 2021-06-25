@@ -8,6 +8,23 @@ order: 3
 <div class="container">
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            25.06.2021
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Modular Curves and the Distance Conjecture (poster presentation)
+                </div>
+                <div class="row venue">
+                    Strings 2021 (ICTP-SAIFR, São Paulo)
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             03.05.2021
         </div>
         <div class="col-sm eventinfo">
