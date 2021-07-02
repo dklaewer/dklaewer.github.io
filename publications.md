@@ -19,7 +19,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
                 <div class="card-subtitle">with Seung-Joo Lee, Timo Weigand, Max Wiesner</div>
             </div>
             <div class="col-4 text-end">
-                Nov 2021
+                Nov 2020
             </div>
         </div>
     </div>
