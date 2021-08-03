@@ -9,6 +9,44 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 
 ### Selected articles:
 
+
+<div class="card mt-3">
+    <div class="card-header">
+        <div class="row">
+            <h4 class="card-title mt-0 mb-3 text-center">Modular Curves and the Refined Distance Conjecture</h4>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="card-subtitle"></div>
+            </div>
+            <div class="col-4 text-end">
+                Aug 2021
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <p class="mb-0 text-justify">
+            We test the refined distance conjecture in the vector multiplet moduli space
+            of 4D \(\mathcal{N}=2\) compactifications of the type IIA string that admit a
+            dual heterotic description. In the weakly coupled regime of the heterotic
+            string, the moduli space geometry is governed by the perturbative heterotic
+            dualities, which allows for exact computations. This is reflected in the type
+            IIA frame through the existence of a K3 fibration. We identify the degree
+            \(d=2N\) of the K3 fiber as a parameter that could potentially lead to large
+            distances, which is substantiated by studying several explicit models. The
+            moduli space geometry degenerates into the modular curve for the congruence
+            subgroup \(\Gamma_0(N)^+\). In order to probe the large \(N\) regime, we initiate
+            the study of Calabi-Yau threefolds fibered by general degree \(d>8\) K3 surfaces
+            by suggesting a construction as complete intersections in Grassmann bundles.
+        </p>
+    </div>
+    <div class="card-footer">
+    <p class="mb-0">
+        <a href="https://arxiv.org/abs/2108.00021" class="card-link">arXiv</a>
+    </p>
+    </div>
+</div>
+
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
