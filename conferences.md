@@ -9,6 +9,40 @@ order: 4
 <h4>Attended Conferences, Workshops and Schools</h4>
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            09/2021
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Workshop on New Developments in Quantum Gravity and String Theory
+                </div>
+                <div class="row venue">
+                    Mon Repos, Corfu
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
+            07/2021
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    String Phenomenology
+                </div>
+                <div class="row venue">
+                    virtual conference
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             06/2021
         </div>
         <div class="col-sm eventinfo">
