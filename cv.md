@@ -15,7 +15,28 @@ order: 2
                     <h4 class="card-title m-0">Postdoctoral Research Fellow</h4>
                 </div>
                 <div class="col-4">
-                    <p class="text-end">2019-current</p>
+                    <p class="text-end">2021-current</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <p class="card-text mb-0">Hamburg University</p>
+                </div>
+                <div class="col-4">
+                    <p class="text-end mb-0 d-none d-sm-block">Hamburg, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Hamburg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">Postdoctoral Research Fellow</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2019-2021</p>
                 </div>
             </div>
             <div class="row">
