@@ -9,6 +9,23 @@ order: 4
 <h4>Attended Conferences, Workshops and Schools</h4>
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            11/2021
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Geometry, Strings and the Swampland
+                </div>
+                <div class="row venue">
+                    Workshop, Ringberg Castle, Kreuth
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             09/2021
         </div>
         <div class="col-sm eventinfo">
@@ -17,7 +34,7 @@ order: 4
                     Workshop on New Developments in Quantum Gravity and String Theory
                 </div>
                 <div class="row venue">
-                    Mon Repos, Corfu
+                    Workshop, Corfu
                 </div>
                 <div class="row weblinks">
                 </div>
@@ -408,7 +425,7 @@ order: 4
                     Young Scientist Workshop
                 </div>
                 <div class="row venue">
-                    Workshop, Kreuth
+                    Workshop, Ringberg Castle, Kreuth
                 </div>
                 <div class="row weblinks">
                 </div>
@@ -425,7 +442,7 @@ order: 4
                     Geometry and Strings
                 </div>
                 <div class="row venue">
-                    Workshop, Kreuth
+                    Workshop, Ringberg Castle, Kreuth
                 </div>
                 <div class="row weblinks">
                 </div>

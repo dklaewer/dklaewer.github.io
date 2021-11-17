@@ -8,6 +8,24 @@ order: 3
 <div class="container">
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            11.11.2021
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Modular Curves and the Refined Distance Conjecture
+                </div>
+                <div class="row venue">
+                    Workshop on Geometry, Strings and the Swampland (Ringberg Castle, Kreuth)
+                </div>
+                <div class="row weblinks">
+                <a class="p-0" href="https://wwwth.mpp.mpg.de/members/blumenha/ringberg2021/talks/klaewer.pdf"> Slides </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             14.09.2021
         </div>
         <div class="col-sm eventinfo">
