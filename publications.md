@@ -42,6 +42,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     </div>
     <div class="card-footer">
     <p class="mb-0">
+        <a href="https://doi.org/10.1007/JHEP12(2021)088" class="card-link">JHEP</a>
         <a href="https://arxiv.org/abs/2108.00021" class="card-link">arXiv</a>
     </p>
     </div>
