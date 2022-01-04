@@ -13,6 +13,32 @@ You can find an up-to-date list of my publications in my author profile on [INSP
 <div class="card mt-3">
     <div class="card-header">
         <div class="row">
+            <h4 class="card-title mt-0 mb-3 text-center">Membrane Limits in Quantum Gravity</h4>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="card-subtitle"></div>
+            </div>
+            <div class="col-4 text-end">
+                Dec 2021
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <p class="mb-0 text-justify">
+            It is expected that infinite distance limits in the moduli space of quantum gravity are accompanied by a tower of light states. In view of the Emergent String Conjecture, this tower must either induce a decompactification or correspond to the emergence of a tensionless critical string. We study the consistency conditions implied by this conjecture on the asymptotic behaviour of quantum gravity under dimensional reduction. If the emergent string descends from a (2+1)-dimensional membrane in a higher-dimensional theory, we find that such a membrane must parametrically decouple from the Kaluza-Klein scale. We verify this censorship against emergent membrane limits, where the membrane would sit at the Kaluza-Klein scale, in the hypermultiplet moduli space of Calabi-Yau threefold compactifications of string/M-theory. At the classical level, a putative membrane limit arises, up to duality, from an M5-brane wrapping the asymptotically shrinking special Lagrangian 3-cycle corresponding to the SYZ fibre of the Calabi-Yau. We show how quantum corrections in the moduli space obstruct such a limit and instead lead to a decompactification to eleven dimensions, where the role of the M5- and M2-branes are interchanged.
+        </p>
+    </div>
+    <div class="card-footer">
+    <p class="mb-0">
+        <a href="https://arxiv.org/abs/2112.09136" class="card-link">arXiv</a>
+    </p>
+    </div>
+</div>
+
+<div class="card mt-3">
+    <div class="card-header">
+        <div class="row">
             <h4 class="card-title mt-0 mb-3 text-center">Modular Curves and the Refined Distance Conjecture</h4>
         </div>
         <div class="row">
@@ -71,60 +97,6 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     <p class="mb-0">
         <a href="https://doi.org/10.1007/JHEP03(2021)252" class="card-link">JHEP</a>
         <a href="https://arxiv.org/abs/2011.00024" class="card-link">arXiv</a>
-    </p>
-    </div>
-</div>
-
-<div class="card mt-3">
-    <div class="card-header">
-        <div class="row">
-            <h4 class="card-title mt-0 mb-3 text-center">Swampland Variations on a Theme by KKLT</h4>
-        </div>
-        <div class="row">
-            <div class="col-8">
-                <div class="card-subtitle">with Ralph Blumenhagen, Lorenz Schlechter</div>
-            </div>
-            <div class="col-4 text-end">
-                Feb 2019
-            </div>
-        </div>
-    </div>
-    <div class="card-body">
-        <p class="mb-0 text-justify">
-            The KKLT scenario in a warped throat, if consistent, provides a concrete counterexample to both the AdS scale separation and the dS swampland conjectures. First, we define and analyze the relevant effective field theory for the conifold modulus and the overall Kaehler modulus that both have exponentially small masses. The scalar potential still admits KKLT-like AdS and dS minima. Second, we critically analyze the reliability of the employed Wilsonian effective action by evaluating the masses of light modes localized in the warped throat. The resulting mass spectrum is discussed with respect to the swampland distance conjecture. We find the recently observed emergent nature of the latter not only at large distance points but also at the conifold point motivating a general extension of it. In this respect, KKLT and trans-Planckian field distance are on equal footing. It is pointed out that the reliability of the KKLT minimum will depend on how this emergent behavior is interpreted.
-        </p>
-    </div>
-    <div class="card-footer">
-    <p class="mb-0">
-        <a href="https://doi.org/10.1007/JHEP05(2019)152" class="card-link">JHEP</a>
-        <a href="https://arxiv.org/abs/1902.07724" class="card-link">arXiv</a>
-    </p>
-    </div>
-</div>
-
-<div class="card mt-3">
-    <div class="card-header">
-        <div class="row">
-            <h4 class="card-title mt-0 mb-3 text-center">A Spin‐2 Conjecture on the Swampland</h4>
-        </div>
-        <div class="row">
-            <div class="col-8">
-                <div class="card-subtitle">with Dieter Lüst, Eran Palti</div>
-            </div>
-            <div class="col-4 text-end">
-                Nov 2018
-            </div>
-        </div>
-    </div>
-    <div class="card-body">
-        <p class="mb-0 text-justify">
-            We consider effective theories with massive fields that have spins larger than or equal to two. We conjecture a universal cutoff scale on any such theory that depends on the lightest mass of such fields. This cutoff corresponds to the mass scale of an infinite tower of states, signalling the breakdown of the effective theory. The cutoff can be understood as the Weak Gravity Conjecture applied to the Stückelberg gauge field in the mass term of the high spin fields. A strong version of our conjecture applies even if the graviton itself is massive, so to massive gravity. We provide further evidence for the conjecture from string theory.
-        </p>
-    </div>
-    <div class="card-footer">
-    <p class="mb-0">
-        <a href="https://doi.org/10.1002/prop.201800102" class="card-link">Fortschr. Phys.</a>
-        <a href="https://arxiv.org/abs/1811.07908" class="card-link">arXiv</a>
     </p>
     </div>
 </div>
