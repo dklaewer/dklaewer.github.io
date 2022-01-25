@@ -8,6 +8,23 @@ order: 3
 <div class="container">
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            20.01.2022
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Emergent String Conjecture and Membrane Limits
+                </div>
+                <div class="row venue">
+                    Utrecht University String Theory Seminar
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             11.11.2021
         </div>
         <div class="col-sm eventinfo">
