@@ -9,6 +9,23 @@ order: 4
 <h4>Attended Conferences, Workshops and Schools</h4>
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            01/2022
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Geometry and Swampland
+                </div>
+                <div class="row venue">
+                    virtual workshop, BIRS, Banff
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             11/2021
         </div>
         <div class="col-sm eventinfo">
