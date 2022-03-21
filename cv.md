@@ -12,7 +12,7 @@ order: 2
         <div class="card-body">
             <div class="row">
                 <div class="col-8">
-                    <h4 class="card-title m-0">Postdoctoral Research Fellow</h4>
+                    <h4 class="card-title m-0">Postdoctoral Researcher</h4>
                 </div>
                 <div class="col-4">
                     <p class="text-end">2021-current</p>
@@ -33,7 +33,7 @@ order: 2
         <div class="card-body">
             <div class="row">
                 <div class="col-8">
-                    <h4 class="card-title m-0">Postdoctoral Research Fellow</h4>
+                    <h4 class="card-title m-0">Postdoctoral Researcher</h4>
                 </div>
                 <div class="col-4">
                     <p class="text-end">2019-2021</p>
@@ -196,6 +196,49 @@ order: 2
                 <div class="col-5">
                     <p class="text-end mb-0 d-none d-sm-block">Heidelberg, Germany</p>
                     <p class="text-end mb-0 d-block d-sm-none">Heidelberg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="pb-3">Awards</h3>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">Undergraduate Teaching Award 1st Prize</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2022</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <p class="card-text mb-0">University of Hamburg</p>
+                </div>
+                <div class="col-5">
+                    <p class="text-end mb-0 d-none d-sm-block">Hamburg, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Hamburg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="card-title m-0">Arnold Sommerfeld PhD Prize</h4>
+                </div>
+                <div class="col-4">
+                    <p class="text-end">2019</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <p class="card-text mb-0">Ludwig Maximilian University</p>
+                </div>
+                <div class="col-5">
+                    <p class="text-end mb-0 d-none d-sm-block">Munich, Germany</p>
+                    <p class="text-end mb-0 d-block d-sm-none">Munich</p>
                 </div>
             </div>
         </div>
