@@ -9,6 +9,40 @@ order: 4
 <h4>Attended Conferences, Workshops and Schools</h4>
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            05/2022
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Geometric Aspects of the Swampland
+                </div>
+                <div class="row venue">
+                    workshop, CFTMAT Madrid
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
+            05/2022
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    Strings and Geometry
+                </div>
+                <div class="row venue">
+                    conference, Utrecht
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             01/2022
         </div>
         <div class="col-sm eventinfo">
@@ -51,7 +85,7 @@ order: 4
                     Workshop on New Developments in Quantum Gravity and String Theory
                 </div>
                 <div class="row venue">
-                    Workshop, Corfu
+                    workshop, Corfu
                 </div>
                 <div class="row weblinks">
                 </div>
