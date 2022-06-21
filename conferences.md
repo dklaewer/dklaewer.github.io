@@ -9,6 +9,23 @@ order: 4
 <h4>Attended Conferences, Workshops and Schools</h4>
     <div class="row event mb-3">
         <div class="col-md-2 text-nowrap date">
+            06/2022
+        </div>
+        <div class="col-sm eventinfo">
+            <div class="container">
+                <div class="row fw-bold title">
+                    A Deep-Learning Era of Particle Theory
+                </div>
+                <div class="row venue">
+                    program, MITP Mainz
+                </div>
+                <div class="row weblinks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row event mb-3">
+        <div class="col-md-2 text-nowrap date">
             05/2022
         </div>
         <div class="col-sm eventinfo">
@@ -68,7 +85,7 @@ order: 4
                     Geometry, Strings and the Swampland
                 </div>
                 <div class="row venue">
-                    Workshop, Ringberg Castle, Kreuth
+                    workshop, Ringberg Castle, Kreuth
                 </div>
                 <div class="row weblinks">
                 </div>
