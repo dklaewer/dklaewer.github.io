@@ -31,6 +31,7 @@ You can find an up-to-date list of my publications in my author profile on [INSP
     </div>
     <div class="card-footer">
     <p class="mb-0">
+        <a href="https://doi.org/10.1103/PhysRevD.105.066024" class="card-link">Phys.Rev.D</a>
         <a href="https://arxiv.org/abs/2112.09136" class="card-link">arXiv</a>
     </p>
     </div>

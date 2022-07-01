@@ -249,8 +249,8 @@ order: 2
             <h4 class="card-title m-0">Software</h4>
             <p class="card-text m-0">Languages: Python, C++, Java, HTML/CSS</p>
             <p class="card-text m-0">ML: TensorFlow, Keras, Scikit-learn, PyTorch</p>
-            <p class="card-text m-0">CAS: Mathematica, SageMath, Macaulay2</p>
-            <p class="card-text m-0">Tools: bash, git, svn</p>
+            <p class="card-text m-0">CAS: Mathematica, SageMath, Macaulay2, Sympy</p>
+            <p class="card-text m-0">Tools: bash, git, svn, pytest</p>
         </div>
     </div>
     <h3 class="pb-3">Languages</h3>
