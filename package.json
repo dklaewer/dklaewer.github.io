@@ -1,0 +1,24 @@
+{
+  "name": "daniel-klaewer-s-personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "daniel-klaewer-s-personal-site",
+  "author": "Daniel Kläwer",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.2.0",
+    "gatsby-plugin-postcss": "^6.2.0",
+    "postcss": "^8.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
