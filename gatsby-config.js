@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Daniel Klaewer's personal site`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Daniel Klaewer`,
+    siteUrl: `https://www.klaewer.com`
   },
   plugins: ["gatsby-plugin-postcss"]
 };
