@@ -1,176 +1,91 @@
-import * as React from "react"
+import React, { useState } from 'react'
+import '../styles/global.css' // Import Tailwind styles
+import membranelimits from '../images/membrane-limits.png'
 
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
+const MainPage = () => {
+    return (
+      <div className="container mx-auto">
+        <NavigationBar></NavigationBar>
+        {/* <h1 className="text-4xl font-bold mb-4 mt-4">My Portfolio</h1> */}
+        <div className="flex flex-wrap">
+          <ProjectCard
+                  name="Membrane Limits in Quantum Gravity"
+                  description="It is expected that infinite distance limits in the moduli space of quantum gravity are accompanied by a tower of light states. In view of the Emergent String Conjecture, this tower must either induce a decompactification or correspond to the emergence of a tensionless critical string. We study the consistency conditions implied by this conjecture on the asymptotic behaviour of quantum gravity under dimensional reduction. If the emergent string descends from a (2+1)-dimensional membrane in a higher-dimensional theory, we find that such a membrane must parametrically decouple from the Kaluza-Klein scale. We verify this censorship against emergent membrane limits, where the membrane would sit at the Kaluza-Klein scale, in the hypermultiplet moduli space of Calabi-Yau threefold compactifications of string/M-theory. At the classical level, a putative membrane limit arises, up to duality, from an M5-brane wrapping the asymptotically shrinking special Lagrangian 3-cycle corresponding to the SYZ fibre of the Calabi-Yau. We show how quantum corrections in the moduli space obstruct such a limit and instead lead to a decompactification to eleven dimensions, where the role of the M5- and M2-branes are interchanged."
+                  image={membranelimits}
+                  refpage="https://arxiv.org/abs/2112.09136"
+              />
+          <ProjectCard
+                  name="Project 2"
+                  description="This is a description of project 2"
+                  image="https://picsum.photos/id/237/600/400"
+                  refpage="https://www.google.com"
+              />
+          <ProjectCard
+                  name="Project 3"
+                  description="This is a description of project 3"
+                  image="https://picsum.photos/id/237/600/400"
+                  refpage="https://www.google.com"
+              />
+          <ProjectCard
+                  name="Project 4"
+                  description="This is a description of project 4"
+                  image="https://picsum.photos/id/237/600/400"
+                  refpage="https://www.google.com"
+              />
+        </div>
+      </div>
+    )
+  }
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
+const NavigationBar = () => {
+    const [menuOpen, setMenuOpen] = useState(false)
+    return (
+      <div>
+        <nav className="flex items-center justify-between flex-wrap bg-slate-500 p-6">
+          <div className="flex items-center flex-shrink-0 text-white mr-6">
+            <span className="font-semibold text-xl tracking-tight">Daniel Kläwer</span>
+          </div>
+          <div className="block lg:hidden">
+            <button onClick={() => setMenuOpen(!menuOpen)} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+              <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+          </div>
+          <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${menuOpen ? 'block' : 'hidden'}`}>
+            <div className="text-sm lg:flex-grow">
+              <NavigationBarItem href="https://www.google.com" title="CV"/>
+              <NavigationBarItem href="https://www.google.com" title="Publications"/>
+              <NavigationBarItem href="https://www.google.com" title="Talks"/>
+              <NavigationBarItem href="https://www.google.com" title="About"/>
+            </div>
+          </div>
+        </nav>
+      </div>
+    )
 }
 
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
-]
-
-const IndexPage = () => {
-  return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time. 😎
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
-    </main>
-  )
+const NavigationBarItem = ({ href, title }) => {
+    return (
+      <a href={href} className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-white mr-4">
+        {title}
+      </a>
+    )
 }
 
-export default IndexPage
+const ProjectCard = ({ name, description, image, refpage }) => {
+    return (
+      <div className="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src={image} alt={name} className="w-full" />
+          <div className="p-4">
+            <h3 className="font-bold text-xl mb-2">{name}</h3>
+            <p className="text-gray-600 text-justify mb-4">{description}</p>
+            <a href={refpage} className="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg">
+              ArXiv
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
-export const Head = () => <title>Home Page</title>
+export default MainPage
