@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import '../styles/global.css' // Import Tailwind styles
 import membranelimits from '../images/membrane-limits.png'
+import pubdata from '../data/publications.json'
+
+
 
 const MainPage = () => {
     return (
@@ -8,30 +11,7 @@ const MainPage = () => {
         <NavigationBar></NavigationBar>
         {/* <h1 className="text-4xl font-bold mb-4 mt-4">My Portfolio</h1> */}
         <div className="flex flex-wrap">
-          <ProjectCard
-                  name="Membrane Limits in Quantum Gravity"
-                  description="It is expected that infinite distance limits in the moduli space of quantum gravity are accompanied by a tower of light states. In view of the Emergent String Conjecture, this tower must either induce a decompactification or correspond to the emergence of a tensionless critical string. We study the consistency conditions implied by this conjecture on the asymptotic behaviour of quantum gravity under dimensional reduction. If the emergent string descends from a (2+1)-dimensional membrane in a higher-dimensional theory, we find that such a membrane must parametrically decouple from the Kaluza-Klein scale. We verify this censorship against emergent membrane limits, where the membrane would sit at the Kaluza-Klein scale, in the hypermultiplet moduli space of Calabi-Yau threefold compactifications of string/M-theory. At the classical level, a putative membrane limit arises, up to duality, from an M5-brane wrapping the asymptotically shrinking special Lagrangian 3-cycle corresponding to the SYZ fibre of the Calabi-Yau. We show how quantum corrections in the moduli space obstruct such a limit and instead lead to a decompactification to eleven dimensions, where the role of the M5- and M2-branes are interchanged."
-                  image={membranelimits}
-                  refpage="https://arxiv.org/abs/2112.09136"
-              />
-          <ProjectCard
-                  name="Project 2"
-                  description="This is a description of project 2"
-                  image="https://picsum.photos/id/237/600/400"
-                  refpage="https://www.google.com"
-              />
-          <ProjectCard
-                  name="Project 3"
-                  description="This is a description of project 3"
-                  image="https://picsum.photos/id/237/600/400"
-                  refpage="https://www.google.com"
-              />
-          <ProjectCard
-                  name="Project 4"
-                  description="This is a description of project 4"
-                  image="https://picsum.photos/id/237/600/400"
-                  refpage="https://www.google.com"
-              />
+          {PublicationCards}
         </div>
       </div>
     )
@@ -87,5 +67,16 @@ const ProjectCard = ({ name, description, image, refpage }) => {
       </div>
     )
   }
+
+const PublicationCards = pubdata.map((item) => {
+  return (
+    <ProjectCard
+      name={item.title}
+      description={item.abstract}
+      image="https://picsum.photos/id/237/600/400"
+      refpage={item.arxiv}
+    />
+  )
+})
 
 export default MainPage
