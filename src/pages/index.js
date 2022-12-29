@@ -5,22 +5,60 @@ import { MathJaxContext, MathJax } from 'better-react-mathjax'
 
 
 const App = () => {
-    return (
-      <MathJaxContext>
-        <div className="container mx-auto">
-          <NavigationBar></NavigationBar>
-          <div className="flex flex-wrap">
-            {PublicationCards}
-          </div>
-        </div>
-      </MathJaxContext>
-    )
+  const [currentPage, setCurrentPage] = useState('home');
+  function handlePageChange(page) {
+    setCurrentPage(page);
   }
+  return (
+    <div className="container mx-auto">
+      <NavigationBar onPageChange={handlePageChange}/>
+      {currentPage === 'home' && <HomePage/>}
+      {currentPage === 'publications' && <PublicationsPage/>}
+      {currentPage === 'cv' && <CVPage/>}
+      {currentPage === 'talks' && <TalksPage/>}
+    </div>
+  )
+}
 
+const HomePage = () => {
+  return (
+    <div className="flex flex-wrap">
+      <p>Hi! I am a theoretical physicist with a passion for working with data. Please take a look around to learn more about my work!</p>
+    </div>
+  )
+}
 
+const PublicationsPage = () => {
+  return (
+    <MathJaxContext>
+      <div className="flex flex-wrap">
+        {PublicationCards}
+      </div>
+    </MathJaxContext>
+  )
+}
 
-const NavigationBar = () => {
+const CVPage = () => {
+  return (
+    <div className="flex flex-wrap">
+    <p>This is my CV.</p>
+    </div>
+  )
+}
+
+const TalksPage = () => {
+  return (
+    <div className="flex flex-wrap">
+    <p>Some talks.</p>
+    </div>
+  )
+}
+
+const NavigationBar = (props) => {
   const [menuOpen, setMenuOpen] = useState(false)
+  function handleClick(page) {
+    props.onPageChange(page);
+  }
   return (
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-slate-500 p-6">
@@ -34,10 +72,10 @@ const NavigationBar = () => {
         </div>
         <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${menuOpen ? 'block' : 'hidden'}`}>
           <div className="text-sm lg:flex-grow">
-            <NavigationBarItem href="https://www.google.com" title="CV"/>
-            <NavigationBarItem href="https://www.google.com" title="Publications"/>
-            <NavigationBarItem href="https://www.google.com" title="Talks"/>
-            <NavigationBarItem href="https://www.google.com" title="About"/>
+            <NavigationBarItem text="Home" onClick={() => handleClick('home')}/>
+            <NavigationBarItem text="CV" onClick={() => handleClick('cv')}/>
+            <NavigationBarItem text="Publications" onClick={() => handleClick('publications')}/>
+            <NavigationBarItem text="Talks" onClick={() => handleClick('talks')}/>
           </div>
         </div>
       </nav>
@@ -45,10 +83,10 @@ const NavigationBar = () => {
   )
 }
 
-const NavigationBarItem = ({ href, title }) => {
+const NavigationBarItem = (props) => {
     return (
-      <a href={href} className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-white mr-4">
-        {title}
+      <a href="#" onClick={props.onClick} className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-white mr-4">
+        {props.text}
       </a>
     )
 }
