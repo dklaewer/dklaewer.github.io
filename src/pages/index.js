@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import '../styles/global.css' // Import Tailwind styles
-import membranelimits from '../images/membrane-limits.png'
 import pubdata from '../data/publications.json'
-
+import { MathJaxContext, MathJax } from 'better-react-mathjax'
 
 
 const MainPage = () => {
     return (
-      <div className="container mx-auto">
-        <NavigationBar></NavigationBar>
-        {/* <h1 className="text-4xl font-bold mb-4 mt-4">My Portfolio</h1> */}
-        <div className="flex flex-wrap">
-          {PublicationCards}
+      <MathJaxContext>
+        <div className="container mx-auto">
+          <NavigationBar></NavigationBar>
+          <div className="flex flex-wrap">
+            {PublicationCards}
+          </div>
         </div>
-      </div>
+      </MathJaxContext>
     )
   }
 
@@ -58,7 +58,9 @@ const ProjectCard = ({ name, description, image, arxiv, doi, journal }) => {
           <img src={image} alt={name} className="w-full" />
           <div className="p-4">
             <h3 className="font-bold text-xl mb-2">{name}</h3>
-            <p className="text-gray-600 text-justify mb-4">{description}</p>
+            <p className="text-gray-600 text-justify mb-4">
+              <MathJax>{description}</MathJax>
+            </p>
             <a href={arxiv} className="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg">
               ArXiv
             </a>

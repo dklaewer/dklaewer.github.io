@@ -16,6 +16,7 @@
     "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
+    "better-react-mathjax": "^2.0.2",
     "gatsby": "^5.2.0",
     "gatsby-plugin-postcss": "^6.2.0",
     "postcss": "^8.4.19",
