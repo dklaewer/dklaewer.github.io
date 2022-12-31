@@ -1,14 +1,314 @@
 [
     {
         "id": 1,
-        "date": "",
-        "title": "",
-        "event": "",
-        "location": "",
+        "date": "2017-07-06",
+        "type": "talk",
+        "title": "Weak Gravity, Super-Planckian Fields and the Swampland Conjecture",
+        "event": "String Phenomenology",
+        "location": "Virginia Tech",
+        "city": "Blacksburg",
+        "country": "USA",
         "links": [
             {
-                "": ""
+                "slides": "https://www.cpe.vt.edu/stringpheno17/presentations/Klaewer.pdf"
             }
         ]
+    },
+    {
+        "id": 1,
+        "date": "2017-07-20",
+        "type": "talk",
+        "title": "Quantum Black Holes and Global Symmetries",
+        "event": "Young Scientist Workshop",
+        "location": "Ringberg Castle",
+        "city": "Kreuth",
+        "country": "Germany"
+    },
+    {
+        "id": 2,
+        "date": "2018-03-12",
+        "type": "talk",
+        "title": "Mirror Symmetry and the Refined Swampland Distance Conjecture",
+        "event": "Beyond the Standard Model Workshop",
+        "location": "Physikzentrum Bad Honnef",
+        "city": "Bad Honnef",
+        "country": "Germany"
+    },
+    {
+        "id": 3,
+        "date": "2018-06-25",
+        "type": "poster presentation",
+        "title": "The Refined Swampland Distance Conjecture in Calabi-Yau Moduli Spaces",
+        "event": "Strings 2018",
+        "location": "Okinawa Institute of Science and Technology",
+        "city": "Onna",
+        "country": "Japan"
+    },
+    {
+        "id": 4,
+        "date": "2018-07-06",
+        "type": "plenary talk",
+        "title": "The Refined Swampland Distance Conjecture in Calabi-Yau Moduli Spaces",
+        "event": "String Phenomenology",
+        "location": "University of Warsaw",
+        "city": "Warsaw",
+        "country": "Poland",
+        "links": [
+            {
+                "slides": "http://sp18.fuw.edu.pl/wp-content/uploads/participants-database/klaewer_spheno.pdf"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "date": "2018-07-26",
+        "type": "talk",
+        "title": "The Refined Swampland Distance Conjecture in Calabi-Yau Moduli Spaces",
+        "event": "Geometry and Strings Workshop",
+        "location": "Ringberg Castle",
+        "city": "Kreuth",
+        "country": "Germany",
+        "links": [
+            {
+                "slides": "https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_workshops_conferences/ringberg_geometry_strings_18/slides_ringberg_2018/klaewer.pdf"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "date": "2018-09-05",
+        "type": "talk",
+        "title": "Duality",
+        "event": "Young Scientist Workshop",
+        "location": "Ringberg Castle",
+        "city": "Kreuth",
+        "country": "Germany"
+    },
+    {
+        "id": 7,
+        "date": "2018-12-12",
+        "type": "talk",
+        "title": "Machine Learning Line Bundle Cohomology",
+        "event": "Machine Learning Landscape",
+        "location": "International Center for Theoretical Physics",
+        "city": "Trieste",
+        "country": "Italy",
+        "links": [
+            {
+                "slides": "http://indico.ictp.it/event/8784/session/29/contribution/192/material/slides/"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "date": "2019-06-27",
+        "type": "talk",
+        "title": "Swampland Variations on a Theme by KKLT",
+        "event": "String Phenomenology 2019",
+        "location": "CERN",
+        "city": "Geneva",
+        "country": "Switzerland",
+        "links": [
+            {
+                "slides": "https://indico.cern.ch/event/782251/contributions/3442293/attachments/1870798/3078300/2_Klaewer.pdf"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "date": "2019-07-09",
+        "type": "poster presentation",
+        "title": "Higher Spins and the Swampland",
+        "event": "Strings 2019",
+        "location": "Flagey",
+        "city": "Brussels",
+        "country": "Belgium"
+    },
+    {
+        "id": 10,
+        "date": "2020-01-07",
+        "type": "talk",
+        "title": "Data Science for Cohomology and the String Landscape",
+        "event": "Strings, Geometry and Data Science",
+        "location": "Simons Center for Geometry and Physics",
+        "city": "Stony Brook",
+        "country": "USA"
+    },
+    {
+        "id": 11,
+        "date": "2020-06-02",
+        "type": "talk (online)",
+        "title": "Modular Curves and the Refined Distance Conjecture",
+        "event": "String Theory Seminar",
+        "location": "Heidelberg University",
+        "city": "Heidelberg",
+        "country": "Germany"
+    },
+    {
+        "id": 12,
+        "date": "2020-09-24",
+        "type": "talk (online)",
+        "title": "Infinite Distance and Weak Gravity in 4D N=1",
+        "event": "DESY Theory Forum",
+        "location": "DESY",
+        "city": "Hamburg",
+        "country": "Germany",
+        "links": [
+            {
+                "slides": "https://indico.desy.de/event/25488/contributions/57262/attachments/37030/46288/Hamburg240920.pdf"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "date": "2020-12-09",
+        "type": "talk (online)",
+        "title": "The Swampland Program: Shaking the Foundations of String Phenomenology",
+        "event": "ASC Prize Colloquium",
+        "location": "University of Munich (LMU)",
+        "city": "Munich",
+        "country": "Germany",
+        "links": [
+            {
+                "slides": "https://www.physik.uni-muenchen.de/aus_der_fakultaet/kolloquien/asc_kolloquium/archiv_wise20/phd_prize_2019/asc_phd-prize-colloquium_2019.pdf"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "date": "2021-02-16",
+        "type": "talk (online)",
+        "title": "Infinite Distance, Emergent Strings and Quantum Corrections in 4D N=1",
+        "event": "Seminar Series on String Phenomenology",
+        "location": "online",
+        "links": [
+            {
+                "slides": "https://stringphenoseminars.github.io/slides/danielklawer.pdf",
+                "video": "https://www.youtube.com/watch?v=eFpZlDlVARA"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "date": "2021-03-08",
+        "type": "talk (online)",
+        "title": "Emergent Heterotic Strings, the Weak Gravity Conjecture and Quantum Corrections",
+        "event": "Zooming in on the Swampland",
+        "location": "Harvard University",
+        "city": "Cambridge",
+        "country": "USA",
+        "links": [
+            {
+                "video": "https://www.youtube.com/watch?v=2kKMbzoNWJI"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "date": "2021-03-11",
+        "type": "talk (online)",
+        "title": "On Finite and Infinite Distances in Moduli Space",
+        "event": "String Theory Seminar",
+        "location": "Utrecht University",
+        "city": "Utrecht",
+        "country": "Netherlands"
+    },
+    {
+        "id": 17,
+        "date": "2021-05-03",
+        "type": "talk (online)",
+        "title": "The Refined Distance Conjecture in the N=2 Duality Web",
+        "event": "HETG Swampland Seminar",
+        "location": "Harvard University",
+        "city": "Cambridge",
+        "country": "USA",
+        "links": [
+            {
+                "video": "https://www.youtube.com/watch?v=UaIWzH02xcU"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "date": "2021-06-25",
+        "type": "poster presentation (online)",
+        "title": "Modular Curves and the Distance Conjecture",
+        "event": "Strings 2021",
+        "location": "ICTP-SAIFR",
+        "city": "São Paulo",
+        "country": "Brazil"
+    },
+    {
+        "id": 19,
+        "date": "2021-09-14",
+        "type": "talk",
+        "title": "Modular Curves and the Refined Distance Conjecture",
+        "event": "Workshop on New Developments in Quantum Gravity and String Theory",
+        "location": "Mon Repos",
+        "city": "Corfu",
+        "country": "Greece"
+    },
+    {
+        "id": 20,
+        "date": "2021-11-11",
+        "type": "talk",
+        "title": "Modular Curves and the Refined Distance Conjecture",
+        "event": "Workshop on Geometry, Strings and the Swampland",
+        "location": "Ringberg Castle",
+        "city": "Kreuth",
+        "country": "Germany",
+        "links": [
+            {
+                "slides": "https://wwwth.mpp.mpg.de/members/blumenha/ringberg2021/talks/klaewer.pdf"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "date": "2022-01-20",
+        "type": "talk (online)",
+        "title": "Emergent String Conjecture and Membrane Limits",
+        "event": "String Theory Seminar",
+        "location": "Utrecht University",
+        "city": "Utrecht",
+        "country": "Netherlands"
+    },
+    {
+        "id": 22,
+        "date": "2022-03-16",
+        "type": "talk (online)",
+        "title": "Emergent String Conjecture and Membrane Limits",
+        "event": "Joint Belgian HEP-TH Seminar",
+        "location": "online"
+    },
+    {
+        "id": 23,
+        "date": "2022-03-30",
+        "type": "talk",
+        "title": "Physics of Infinite Scalar Field Displacements and the Role of Strings and Membranes",
+        "event": "Quantum Universe Annual Meeting",
+        "location": "Hamburg University",
+        "city": "Hamburg",
+        "country": "Germany"
+    },
+    {
+        "id": 24,
+        "date": "2022-07-05",
+        "type": "talk",
+        "title": "Membrane Limits in Quantum Gravity",
+        "event": "String Phenomenology 2022",
+        "location": "Liverpool University",
+        "city": "Liverpool",
+        "country": "UK"
+    },
+    {
+        "id": 25,
+        "date": "2022-09-16",
+        "type": "talk",
+        "title": "ML in Mathematical Physics and String Theory",
+        "event": "Physics <3 AI Seminar",
+        "location": "Hamburg University",
+        "city": "Hamburg",
+        "country": "Germany"
     }
 ]
