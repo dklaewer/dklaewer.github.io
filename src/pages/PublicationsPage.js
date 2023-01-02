@@ -12,7 +12,7 @@ export default function PublicationsPage() {
   );
 }
 
-const ProjectCard = ({ name, description, image, arxiv, doi, journal }) => {
+const PublicationCard = ({ name, description, image, arxiv, doi, journal }) => {
   return (
     <div className="w-full md:w-1/2 lg:w-1/3 p-4">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -36,7 +36,7 @@ const ProjectCard = ({ name, description, image, arxiv, doi, journal }) => {
 
 const PublicationCards = pubdata.map((item) => {
   return (
-    <ProjectCard
+    <PublicationCard
       name={item.title}
       description={item.abstract}
       image={item.image}
