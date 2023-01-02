@@ -14,7 +14,7 @@ export default function PublicationsPage() {
 
 const PublicationCard = ({ name, description, image, arxiv, doi, journal }) => {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/3 p-4">
+    <div className="w-full md:w-1/2 lg:w-1/3 p-2">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <img src={image} className="w-full" />
         <div className="p-4">
@@ -22,10 +22,10 @@ const PublicationCard = ({ name, description, image, arxiv, doi, journal }) => {
           <p className="text-gray-600 text-justify mb-4">
             <MathJax>{description}</MathJax>
           </p>
-          <a href={arxiv} className="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg">
+          <a href={arxiv} className="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg mx-1">
             ArXiv
           </a>
-          <a href={doi} className="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg">
+          <a href={doi} className="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg mx-1">
             {journal}
           </a>
         </div>
