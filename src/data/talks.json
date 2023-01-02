@@ -8,11 +8,9 @@
         "location": "Virginia Tech",
         "city": "Blacksburg",
         "country": "USA",
-        "links": [
-            {
-                "slides": "https://www.cpe.vt.edu/stringpheno17/presentations/Klaewer.pdf"
-            }
-        ]
+        "links": {
+            "slides": "https://www.cpe.vt.edu/stringpheno17/presentations/Klaewer.pdf"
+        }
     },
     {
         "id": 1,
@@ -22,7 +20,8 @@
         "event": "Young Scientist Workshop",
         "location": "Ringberg Castle",
         "city": "Kreuth",
-        "country": "Germany"
+        "country": "Germany",
+        "links": {}
     },
     {
         "id": 2,
@@ -32,7 +31,8 @@
         "event": "Beyond the Standard Model Workshop",
         "location": "Physikzentrum Bad Honnef",
         "city": "Bad Honnef",
-        "country": "Germany"
+        "country": "Germany",
+        "links": {}
     },
     {
         "id": 3,
@@ -42,7 +42,8 @@
         "event": "Strings 2018",
         "location": "Okinawa Institute of Science and Technology",
         "city": "Onna",
-        "country": "Japan"
+        "country": "Japan",
+        "links": {}
     },
     {
         "id": 4,
@@ -53,11 +54,9 @@
         "location": "University of Warsaw",
         "city": "Warsaw",
         "country": "Poland",
-        "links": [
-            {
-                "slides": "http://sp18.fuw.edu.pl/wp-content/uploads/participants-database/klaewer_spheno.pdf"
-            }
-        ]
+        "links": {
+            "slides": "http://sp18.fuw.edu.pl/wp-content/uploads/participants-database/klaewer_spheno.pdf"
+        }
     },
     {
         "id": 5,
@@ -68,11 +67,9 @@
         "location": "Ringberg Castle",
         "city": "Kreuth",
         "country": "Germany",
-        "links": [
-            {
-                "slides": "https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_workshops_conferences/ringberg_geometry_strings_18/slides_ringberg_2018/klaewer.pdf"
-            }
-        ]
+        "links": {
+            "slides": "https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_workshops_conferences/ringberg_geometry_strings_18/slides_ringberg_2018/klaewer.pdf"
+        }
     },
     {
         "id": 6,
@@ -82,7 +79,8 @@
         "event": "Young Scientist Workshop",
         "location": "Ringberg Castle",
         "city": "Kreuth",
-        "country": "Germany"
+        "country": "Germany",
+        "links": {}
     },
     {
         "id": 7,
@@ -93,11 +91,9 @@
         "location": "International Center for Theoretical Physics",
         "city": "Trieste",
         "country": "Italy",
-        "links": [
-            {
-                "slides": "http://indico.ictp.it/event/8784/session/29/contribution/192/material/slides/"
-            }
-        ]
+        "links": {
+            "slides": "http://indico.ictp.it/event/8784/session/29/contribution/192/material/slides/"
+        }
     },
     {
         "id": 8,
@@ -108,11 +104,9 @@
         "location": "CERN",
         "city": "Geneva",
         "country": "Switzerland",
-        "links": [
-            {
-                "slides": "https://indico.cern.ch/event/782251/contributions/3442293/attachments/1870798/3078300/2_Klaewer.pdf"
-            }
-        ]
+        "links": {
+            "slides": "https://indico.cern.ch/event/782251/contributions/3442293/attachments/1870798/3078300/2_Klaewer.pdf"
+        }
     },
     {
         "id": 9,
@@ -122,7 +116,8 @@
         "event": "Strings 2019",
         "location": "Flagey",
         "city": "Brussels",
-        "country": "Belgium"
+        "country": "Belgium",
+        "links": {}
     },
     {
         "id": 10,
@@ -132,7 +127,8 @@
         "event": "Strings, Geometry and Data Science",
         "location": "Simons Center for Geometry and Physics",
         "city": "Stony Brook",
-        "country": "USA"
+        "country": "USA",
+        "links": {}
     },
     {
         "id": 11,
@@ -142,7 +138,8 @@
         "event": "String Theory Seminar",
         "location": "Heidelberg University",
         "city": "Heidelberg",
-        "country": "Germany"
+        "country": "Germany",
+        "links": {}
     },
     {
         "id": 12,
@@ -153,11 +150,9 @@
         "location": "DESY",
         "city": "Hamburg",
         "country": "Germany",
-        "links": [
-            {
-                "slides": "https://indico.desy.de/event/25488/contributions/57262/attachments/37030/46288/Hamburg240920.pdf"
-            }
-        ]
+        "links": {
+            "slides": "https://indico.desy.de/event/25488/contributions/57262/attachments/37030/46288/Hamburg240920.pdf"
+        }
     },
     {
         "id": 13,
@@ -168,11 +163,9 @@
         "location": "University of Munich (LMU)",
         "city": "Munich",
         "country": "Germany",
-        "links": [
-            {
-                "slides": "https://www.physik.uni-muenchen.de/aus_der_fakultaet/kolloquien/asc_kolloquium/archiv_wise20/phd_prize_2019/asc_phd-prize-colloquium_2019.pdf"
-            }
-        ]
+        "links": {
+            "slides": "https://www.physik.uni-muenchen.de/aus_der_fakultaet/kolloquien/asc_kolloquium/archiv_wise20/phd_prize_2019/asc_phd-prize-colloquium_2019.pdf"
+        }
     },
     {
         "id": 14,
@@ -181,12 +174,10 @@
         "title": "Infinite Distance, Emergent Strings and Quantum Corrections in 4D N=1",
         "event": "Seminar Series on String Phenomenology",
         "location": "online",
-        "links": [
-            {
-                "slides": "https://stringphenoseminars.github.io/slides/danielklawer.pdf",
-                "video": "https://www.youtube.com/watch?v=eFpZlDlVARA"
-            }
-        ]
+        "links": {
+            "slides": "https://stringphenoseminars.github.io/slides/danielklawer.pdf",
+            "video": "https://www.youtube.com/watch?v=eFpZlDlVARA"
+        }
     },
     {
         "id": 15,
@@ -197,11 +188,9 @@
         "location": "Harvard University",
         "city": "Cambridge",
         "country": "USA",
-        "links": [
-            {
-                "video": "https://www.youtube.com/watch?v=2kKMbzoNWJI"
-            }
-        ]
+        "links": {
+            "video": "https://www.youtube.com/watch?v=2kKMbzoNWJI"
+        }
     },
     {
         "id": 16,
@@ -211,7 +200,8 @@
         "event": "String Theory Seminar",
         "location": "Utrecht University",
         "city": "Utrecht",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "links": {}
     },
     {
         "id": 17,
@@ -222,11 +212,9 @@
         "location": "Harvard University",
         "city": "Cambridge",
         "country": "USA",
-        "links": [
-            {
-                "video": "https://www.youtube.com/watch?v=UaIWzH02xcU"
-            }
-        ]
+        "links": {
+            "video": "https://www.youtube.com/watch?v=UaIWzH02xcU"
+        }
     },
     {
         "id": 18,
@@ -236,7 +224,8 @@
         "event": "Strings 2021",
         "location": "ICTP-SAIFR",
         "city": "São Paulo",
-        "country": "Brazil"
+        "country": "Brazil",
+        "links": {}
     },
     {
         "id": 19,
@@ -246,7 +235,8 @@
         "event": "Workshop on New Developments in Quantum Gravity and String Theory",
         "location": "Mon Repos",
         "city": "Corfu",
-        "country": "Greece"
+        "country": "Greece",
+        "links": {}
     },
     {
         "id": 20,
@@ -257,11 +247,9 @@
         "location": "Ringberg Castle",
         "city": "Kreuth",
         "country": "Germany",
-        "links": [
-            {
-                "slides": "https://wwwth.mpp.mpg.de/members/blumenha/ringberg2021/talks/klaewer.pdf"
-            }
-        ]
+        "links": {
+            "slides": "https://wwwth.mpp.mpg.de/members/blumenha/ringberg2021/talks/klaewer.pdf"
+        }
     },
     {
         "id": 21,
@@ -271,7 +259,8 @@
         "event": "String Theory Seminar",
         "location": "Utrecht University",
         "city": "Utrecht",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "links": {}
     },
     {
         "id": 22,
@@ -279,7 +268,8 @@
         "type": "talk (online)",
         "title": "Emergent String Conjecture and Membrane Limits",
         "event": "Joint Belgian HEP-TH Seminar",
-        "location": "online"
+        "location": "online",
+        "links": {}
     },
     {
         "id": 23,
@@ -289,7 +279,8 @@
         "event": "Quantum Universe Annual Meeting",
         "location": "Hamburg University",
         "city": "Hamburg",
-        "country": "Germany"
+        "country": "Germany",
+        "links": {}
     },
     {
         "id": 24,
@@ -299,7 +290,8 @@
         "event": "String Phenomenology 2022",
         "location": "Liverpool University",
         "city": "Liverpool",
-        "country": "UK"
+        "country": "UK",
+        "links": {}
     },
     {
         "id": 25,
@@ -309,6 +301,7 @@
         "event": "Physics <3 AI Seminar",
         "location": "Hamburg University",
         "city": "Hamburg",
-        "country": "Germany"
+        "country": "Germany",
+        "links": {}
     }
 ]
