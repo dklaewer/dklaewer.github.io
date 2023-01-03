@@ -5,7 +5,7 @@ import { MathJaxContext, MathJax } from 'better-react-mathjax';
 export default function PublicationsPage() {
   return (
     <MathJaxContext>
-      <div className="flex flex-wrap">
+      <div className="columns-1 md:columns-2 lg:columns-3">
         {PublicationCards}
       </div>
     </MathJaxContext>
@@ -14,11 +14,11 @@ export default function PublicationsPage() {
 
 const PublicationCard = ({ name, description, image, arxiv, doi, journal }) => {
   return (
-    <div className="w-full md:w-1/2 lg:w-1/3 p-2">
+    <div className="m-2">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src={image} className="w-full" />
         <div className="p-4">
-          <h3 className="font-bold text-xl mb-2">{name}</h3>
+          <h2 className="font-bold text-xl mb-2">{name}</h2>
+            <img src={image} alt="" className="w-full" />
           <p className="text-gray-600 text-justify mb-4">
             <MathJax>{description}</MathJax>
           </p>

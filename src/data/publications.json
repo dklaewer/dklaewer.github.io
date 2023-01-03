@@ -7,7 +7,7 @@
         "arxiv": "https://arxiv.org/abs/2112.09136",
         "doi": "https://doi.org/10.1103/PhysRevD.105.066024",
         "journal": "Phys.Rev.D",
-        "image": "membrane-limits.svg"
+        "image": "/static/4ee1440650eb4ae28545ca81fef4a246/membrane-limits.svg"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "arxiv": "https://arxiv.org/abs/2108.00021",
         "doi": "https://doi.org/10.1007/JHEP12(2021)088",
         "journal": "JHEP",
-        "image": "membrane-limits.svg"
+        "image": "/static/ed3ed436c1fafc3309b83652a872f309/modular-curves.png"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "arxiv": "https://arxiv.org/abs/2011.00024",
         "doi": "https://doi.org/10.1007/JHEP03(2021)252",
         "journal": "JHEP",
-        "image": "membrane-limits.svg"
+        "image": "/static/7b8c90ba19f037d7d92ae5c58de885b6/emergent-strings.svg"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "arxiv": "https://arxiv.org/abs/2004.09285",
         "doi": "https://doi.org/10.22323/1.376.0158",
         "journal": "PoS",
-        "image": "membrane-limits.svg"
+        "image": ""
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "arxiv": "https://arxiv.org/abs/1902.07724",
         "doi": "https://doi.org/10.1007/JHEP05(2019)152",
         "journal": "JHEP",
-        "image": "membrane-limits.svg"
+        "image": ""
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "arxiv": "https://arxiv.org/abs/1811.07908",
         "doi": "https://doi.org/10.1002/prop.201800102",
         "journal": "Fortschr.Phys.",
-        "image": "membrane-limits.svg"
+        "image": ""
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "arxiv": "https://arxiv.org/abs/1809.02547",
         "doi": "https://doi.org/10.1016/j.physletb.2019.01.002",
         "journal": "Phys.Lett.B",
-        "image": "membrane-limits.svg"
+        "image": "/static/c885e67d10561a1843023d241d4372a5/ml-cohom.svg"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "arxiv": "https://arxiv.org/abs/1803.04989",
         "doi": "https://doi.org/10.1007/JHEP06(2018)052",
         "journal": "JHEP",
-        "image": "membrane-limits.svg"
+        "image": "/static/10cd7fbcd8919e1b34ff9a191106d5a7/rsdc-cy.svg"
     },
     {
         "id": 9,
@@ -87,6 +87,6 @@
         "arxiv": "https://arxiv.org/abs/1610.00010",
         "doi": "https://doi.org/10.1007/JHEP01(2017)088",
         "journal": "JHEP",
-        "image": "membrane-limits.svg"
+        "image": ""
     }
 ]
