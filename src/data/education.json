@@ -1,0 +1,27 @@
+[
+    {
+        "year": "2019",
+        "degree": "PhD in Physics",
+        "grade": "summa cum laude",
+        "description": "Arnold Sommerfeld PhD Prize",
+        "school": "Ludwig Maximilian University",
+        "city": "Munich",
+        "country": "Germany"
+    },
+    {
+        "year": "2017",
+        "degree": "M. Sc. Physics",
+        "grade": "1.1",
+        "school": "Heidelberg University",
+        "city": "Heidelberg",
+        "country": "Germany"
+    },
+    {
+        "year": "2014",
+        "degree": "B. Sc. Physics",
+        "grade": "1.3",
+        "school": "Heidelberg University",
+        "city": "Heidelberg",
+        "country": "Germany"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "startDate": "10/2022",
+        "endDate": "current",
+        "title": "Big Data Scientist",
+        "company": "Airbus Defence and Space",
+        "city": "Manching",
+        "country": "Germany"
+    },
+    {
+        "startDate": "10/2021",
+        "endDate": "09/2022",
+        "title": "Postdoctoral Researcher",
+        "company": "Hamburg University",
+        "city": "Hamburg",
+        "country": "Germany"
+    },
+    {
+        "startDate": "10/2019",
+        "endDate": "09/2021",
+        "title": "Postdoctoral Researcher",
+        "company": "Johannes Gutenberg University",
+        "city": "Mainz",
+        "country": "Germany"
+    },
+    {
+        "startDate": "10/2019",
+        "endDate": "09/2020",
+        "title": "Visiting Scientist",
+        "company": "CERN",
+        "city": "Geneva",
+        "country": "Switzerland"
+    },
+    {
+        "startDate": "03/2017",
+        "endDate": "09/2019",
+        "title": "Doctoral Researcher",
+        "company": "Max Planck Institute for Physics",
+        "city": "Munich",
+        "country": "Germany"
+    },
+    {
+        "startDate": "10/2017",
+        "endDate": "09/2019",
+        "title": "Teaching Assistant",
+        "company": "Ludwig Maximilian University",
+        "city": "Munich",
+        "country": "Germany"
+    },
+    {
+        "startDate": "03/2015",
+        "endDate": "09/2016",
+        "title": "Teaching Assistant",
+        "company": "Heidelberg University",
+        "city": "Heidelberg",
+        "country": "Germany"
+    }
+]

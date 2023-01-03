@@ -1,4 +1,6 @@
 import React from 'react';
+import professionalExperienceData from '../data/professionalexperience.json';
+import educationData from '../data/education.json';
 
 export default function CVPage() {
   return (
@@ -81,21 +83,13 @@ const SkillItem = ( {skill, level} ) => {
   )
 }
 
-var listProfessionalExperiences = [
-  <ProfessionalExperienceItem startDate="10/2022" endDate="current" title="Big Data Scientist" company="Airbus Defence and Space" city="Manching" country="Germany"></ProfessionalExperienceItem>,
-  <ProfessionalExperienceItem startDate="10/2021" endDate="09/2022" title="Postdoctoral Researcher" company="Hamburg University" city="Hamburg" country="Germany"></ProfessionalExperienceItem>,
-  <ProfessionalExperienceItem startDate="10/2019" endDate="09/2021" title="Postdoctoral Researcher" company="Johannes Gutenberg University" city="Mainz" country="Germany"></ProfessionalExperienceItem>,
-  <ProfessionalExperienceItem startDate="10/2019" endDate="09/2020" title="Visiting Scientist" company="CERN" city="Geneva" country="Switzerland"></ProfessionalExperienceItem>,
-  <ProfessionalExperienceItem startDate="03/2017" endDate="09/2019" title="Doctoral Researcher" company="Max Planck Institute for Physics" city="Munich" country="Germany"></ProfessionalExperienceItem>,
-  <ProfessionalExperienceItem startDate="10/2017" endDate="09/2019" title="Teaching Assistant" company="Ludwig Maximilian University" city="Munich" country="Germany"></ProfessionalExperienceItem>,
-  <ProfessionalExperienceItem startDate="03/2015" endDate="09/2016" title="Teaching Assistant" company="Heidelberg University" city="Heidelberg" country="Germany"></ProfessionalExperienceItem>
-];
+var listProfessionalExperiences = professionalExperienceData.map((item) => {
+  return(<ProfessionalExperienceItem startDate={item.startDate} endDate={item.endDate} title={item.title} company={item.company} city={item.city} country={item.country} />);
+});
 
-var listEducationExperiences = [
-  <EducationExperienceItem year="2019" degree="PhD in Physics" grade="summa cum laude" description="Arnold Sommerfeld PhD Prize" school="Ludwig Maximilian University" city="Munich" country="Germany"></EducationExperienceItem>,
-  <EducationExperienceItem year="2017" degree="M. Sc. Physics" grade="1.1" school="Heidelberg University" city="Heidelberg" country="Germany"></EducationExperienceItem>,
-  <EducationExperienceItem year="2014" degree="B. Sc. Physics" grade="1.3" school="Heidelberg University" city="Heidelberg" country="Germany"></EducationExperienceItem>
-];
+var listEducationExperiences = educationData.map((item) => {
+  return(<EducationExperienceItem year={item.year} grade={item.grade} description={item.description} school={item.school} city={item.city} country={item.country}/>)
+})
 
 var listAwards = [
   <AwardItem year="2022" name="Undergraduate Teaching Award 1st Prize" institution="Hamburg University" city="Hamburg" country="Germany"></AwardItem>,
