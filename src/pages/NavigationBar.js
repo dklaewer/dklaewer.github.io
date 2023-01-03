@@ -31,8 +31,8 @@ export default function NavigationBar(props) {
 }
 const NavigationBarItem = (props) => {
   return (
-    <a href="#" onClick={props.onClick} className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-white mr-4">
+    <button onClick={props.onClick} className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-white mr-4">
       {props.text}
-    </a>
+    </button>
   );
 };
