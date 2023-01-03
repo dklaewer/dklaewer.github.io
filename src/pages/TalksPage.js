@@ -9,7 +9,7 @@ export default function TalksPage() {
   );
 };
 
-const TalksTimeline = ({ talks }) => {
+const TalksTimeline = () => {
   return (
     <ol class="relative border-l border-gray-200 dark:border-gray-700">
       {talkdata.sort(
@@ -36,16 +36,16 @@ const TalksTimeline = ({ talks }) => {
 };
 
 
-const TalkDetails = ({ date, type, title, event, location, city, country, links }) => {
-  return (
-    <></>
-  );
-};
+// const TalkDetails = ({ date, type, title, event, location, city, country, links }) => {
+//   return (
+//     <></>
+//   );
+// };
 
 const getLocation = (talk) => {
   let loc = talk.location + (talk.city ? ", " + talk.city : "") + (talk.country ? ", " + talk.country : "")
   if (talk.type === "talk (online)") {
-    if (talk.location == "online") {
+    if (talk.location === "online") {
       return "online"
     }
     else {
