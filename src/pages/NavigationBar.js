@@ -4,6 +4,7 @@ export default function NavigationBar(props) {
   const [menuOpen, setMenuOpen] = useState(false);
   function handleClick(page) {
     props.onPageChange(page);
+    setMenuOpen(!menuOpen);
   }
   return (
     <div>
