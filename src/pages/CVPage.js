@@ -1,6 +1,9 @@
 import React from 'react';
 import professionalExperienceData from '../data/professionalexperience.json';
 import educationData from '../data/education.json';
+import awardData from '../data/awards.json';
+import Timeline from './Timeline';
+
 
 export default function CVPage() {
   return (
@@ -11,51 +14,47 @@ export default function CVPage() {
 }
 
 
-const CVSection = ( {title, listCVItems} ) => {
+const CVSection = ( {title, content} ) => {
   return(
     <div className="w-full md:w-1/2 lg:w-1/3 p-2">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden p-2">
-        <h1 className="font-bold text-xl mb-2 ">
+        <h1 className="font-bold text-xl mb-2">
           {title}
         </h1>
-        {listCVItems}
+        {content}
       </div>
     </div>
   )
 }
 
-const ProfessionalExperienceItem = ( {startDate, endDate, title, description, company, city, country} ) => {
+
+const getEndDate = (cvItem) => cvItem.endDate;
+
+
+const getDate = (cvItem) => cvItem.date;
+
+
+const dateRange = (cvItem) => cvItem.startDate+"–"+cvItem.endDate
+
+
+const formatProfessionalExperience = (item) => {
   return(
-    <div className="flex flex-wrap">
-      <div className="w-40">
-        {startDate} – {endDate}
-      </div>
-      <div className="mb-2">
-        <div className="text font-semibold">{title}</div>
-        <div className="text">{description}</div>
-        <div className="text">{company}</div>
-        <div className="text">{city}, {country}</div>
-      </div>
-    </div>
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">{item.company} — {item.city}, {item.country}</p>
   )
 }
 
-const EducationExperienceItem = ( {year, degree, grade, description, school, city, country} ) => {
+const formatEducationExperience = (item) => {
   return(
-    <div className="flex flex-wrap">
-      <div className="w-40">
-        {year}
-      </div>
-      <div className="mb-2">
-        <div className="text font-semibold">{degree}</div>
-        <div className="text">Grade: {grade}</div>
-        <div className="text">{description}</div>
-        <div className="text">{school}</div>
-        <div className="text">{city}, {country}</div>
-      </div>
-    </div>
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">{item.school} — {item.city}, {item.country}</p>
   )
 }
+
+const formatAward = (item) => {
+  return(
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">{item.institution} — {item.city}, {item.country}</p>
+  )
+}
+
 
 const AwardItem = ( {year, name, description, institution, city, country} ) => {
   return(
@@ -73,6 +72,7 @@ const AwardItem = ( {year, name, description, institution, city, country} ) => {
   )
 }
 
+
 const SkillItem = ( {skill, level} ) => {
   return(
     <div className="flex flex-wrap">
@@ -82,18 +82,6 @@ const SkillItem = ( {skill, level} ) => {
   )
 }
 
-var listProfessionalExperiences = professionalExperienceData.map((item) => {
-  return(<ProfessionalExperienceItem startDate={item.startDate} endDate={item.endDate} title={item.title} company={item.company} city={item.city} country={item.country} />);
-});
-
-var listEducationExperiences = educationData.map((item) => {
-  return(<EducationExperienceItem year={item.year} grade={item.grade} description={item.description} school={item.school} city={item.city} country={item.country}/>)
-})
-
-var listAwards = [
-  <AwardItem year="2022" name="Undergraduate Teaching Award 1st Prize" institution="Hamburg University" city="Hamburg" country="Germany"></AwardItem>,
-  <AwardItem year="2019" name="Arnold Sommerfeld PhD Prize" institution="Ludwig Maximilian University" city="Munich" country="Germany"></AwardItem>
-]
 
 var listLanguages = [
   <SkillItem skill="German" level="native"/>,
@@ -102,11 +90,18 @@ var listLanguages = [
   <SkillItem skill="French" level="CEFR B1"/>
 ]
 
+
 var cvSections = [
-  <CVSection title="Professional Experience" listCVItems={listProfessionalExperiences}/>,
-  <CVSection title="Education" listCVItems={listEducationExperiences}/>,
-  <CVSection title="Awards" listCVItems={listAwards}/>,
-  <CVSection title="Languages" listCVItems={listLanguages}/>
+  <CVSection title="Professional Experience" content={
+    <Timeline data={professionalExperienceData} getDate={getEndDate} formatDate={dateRange} getBodyFromItem={formatProfessionalExperience} />
+  }/>,
+  <CVSection title="Education" content={
+    <Timeline data={educationData} getDate={getDate} formatDate={getDate} getBodyFromItem={formatEducationExperience}/>
+  }/>,
+  <CVSection title="Awards" content={
+    <Timeline data={awardData} getDate={getDate} formatDate={getDate} getBodyFromItem={formatAward} />
+  }/>,
+  <CVSection title="Languages" content={listLanguages}/>,
 ];
 
 // for skills, a word cloud would be nice!!
