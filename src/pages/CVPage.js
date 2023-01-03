@@ -23,7 +23,6 @@ const CVSection = ( {title, listCVItems} ) => {
     </div>
   )
 }
-// width needs to be optimized
 
 const ProfessionalExperienceItem = ( {startDate, endDate, title, description, company, city, country} ) => {
   return(
