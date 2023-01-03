@@ -14,10 +14,12 @@ const App = () => {
   return (
     <div className="container mx-auto">
       <NavigationBar onPageChange={handlePageChange} />
-      {currentPage === 'home' && <HomePage />}
-      {currentPage === 'publications' && <PublicationsPage />}
-      {currentPage === 'cv' && <CVPage />}
-      {currentPage === 'talks' && <TalksPage />}
+      <div>
+        {currentPage === 'home' && <HomePage />}
+        {currentPage === 'publications' && <PublicationsPage />}
+        {currentPage === 'cv' && <CVPage />}
+        {currentPage === 'talks' && <TalksPage />}
+      </div>
     </div>
   )
 }

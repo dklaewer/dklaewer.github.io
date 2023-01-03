@@ -7,7 +7,7 @@ export default function NavigationBar(props) {
     setMenuOpen(!menuOpen);
   }
   return (
-    <div>
+    <div className="sticky top-0 z-50">
       <nav className="flex items-center justify-between flex-wrap bg-slate-500 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <span className="font-semibold text-xl tracking-tight">Daniel Kläwer</span>
