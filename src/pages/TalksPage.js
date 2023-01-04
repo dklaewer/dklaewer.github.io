@@ -35,13 +35,15 @@ const getLocation = (talk) => {
 
 const formatBody = (talk) => {
   return(
-    <>
-      <p class="text-base font-normal text-gray-500 dark:text-gray-400">{talk.event} — {getLocation(talk)}</p>
+    <div>
+      <p class="text-base font-normal text-neutral-400 hidden lg:block">{talk.event} — {getLocation(talk)}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{talk.event}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{getLocation(talk)}</p>
       {Object.entries(talk.links).map(
         ([key, value]) => {
-          return <a className="mr-2" href={value}>{key}</a>;
+          return <a className="mr-2 text-neutral-400 hover:text-neutral-100" href={value}>{key}</a>;
         }
       )}
-    </>
+    </div>
   )
 }

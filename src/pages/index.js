@@ -12,13 +12,15 @@ const App = () => {
     setCurrentPage(page);
   }
   return (
-    <div className="container mx-auto">
-      <NavigationBar onPageChange={handlePageChange} />
-      <div>
-        {currentPage === 'home' && <HomePage />}
-        {currentPage === 'publications' && <PublicationsPage />}
-        {currentPage === 'cv' && <CVPage />}
-        {currentPage === 'talks' && <TalksPage />}
+    <div className="min-h-screen bg-neutral-900">
+      <div className="container mx-auto">
+        <NavigationBar onPageChange={handlePageChange} />
+        <div>
+          {currentPage === 'home' && <HomePage />}
+          {currentPage === 'publications' && <PublicationsPage />}
+          {currentPage === 'cv' && <CVPage />}
+          {currentPage === 'talks' && <TalksPage />}
+        </div>
       </div>
     </div>
   )

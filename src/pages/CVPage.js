@@ -7,7 +7,7 @@ import Timeline from './Timeline';
 
 export default function CVPage() {
   return (
-    <div className="flex flex-wrap p-2">
+    <div className="columns-1 md:columns-2 lg:columns-3 md:mt-4">
       {cvSections}
     </div>
   );
@@ -16,14 +16,12 @@ export default function CVPage() {
 
 const CVSection = ( {title, content} ) => {
   return(
-    <div className="w-full md:w-1/2 lg:w-1/3 p-2">
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden p-2">
-        <h1 className="font-bold text-xl mb-2">
+      <div className="rounded border-b md:border border-neutral-700 shadow-lg overflow-hidden px-4 py-2 md:px-4 md:mb-4">
+        <h1 className="font-bold text-white text-xl text-center pb-2">
           {title}
         </h1>
         {content}
       </div>
-    </div>
   )
 }
 
@@ -39,35 +37,30 @@ const dateRange = (cvItem) => cvItem.startDate+"–"+cvItem.endDate
 
 const formatProfessionalExperience = (item) => {
   return(
-      <p class="text-base font-normal text-gray-500 dark:text-gray-400">{item.company} — {item.city}, {item.country}</p>
+    <div>
+      <p class="text-base font-normal text-neutral-400 hidden lg:block">{item.company} — {item.city}, {item.country}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{item.company}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{item.city}, {item.country}</p>
+    </div>
   )
 }
 
 const formatEducationExperience = (item) => {
   return(
-      <p class="text-base font-normal text-gray-500 dark:text-gray-400">{item.school} — {item.city}, {item.country}</p>
+    <div>
+      <p class="text-base font-normal text-neutral-400 hidden lg:block">{item.school} — {item.city}, {item.country}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{item.school}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{item.city}, {item.country}</p>
+    </div>
   )
 }
 
 const formatAward = (item) => {
   return(
-      <p class="text-base font-normal text-gray-500 dark:text-gray-400">{item.institution} — {item.city}, {item.country}</p>
-  )
-}
-
-
-const AwardItem = ( {year, name, description, institution, city, country} ) => {
-  return(
-    <div className="flex flex-wrap">
-      <div className="w-40">
-        {year}
-      </div>
-      <div className="mb-2">
-        <div className="text font-semibold">{name}</div>
-        <div className="text">{description}</div>
-        <div className="text">{institution}</div>
-        <div className="text">{city}, {country}</div>
-      </div>
+    <div>
+      <p class="text-base font-normal text-neutral-400 hidden lg:block">{item.institution} — {item.city}, {item.country}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{item.institution}</p>
+      <p class="text-base font-normal text-neutral-400 lg:hidden">{item.city}, {item.country}</p>
     </div>
   )
 }
@@ -76,8 +69,8 @@ const AwardItem = ( {year, name, description, institution, city, country} ) => {
 const SkillItem = ( {skill, level} ) => {
   return(
     <div className="flex flex-wrap">
-      <div className="w-40">{skill}</div>
-      <div className="text">{level}</div>
+      <div className="w-40 text-neutral-100">{skill}</div>
+      <div className="text text-neutral-400">{level}</div>
     </div>
   )
 }
