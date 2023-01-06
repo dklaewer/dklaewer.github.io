@@ -7,7 +7,7 @@
         "arxiv": "https://arxiv.org/abs/2112.09136",
         "doi": "https://doi.org/10.1103/PhysRevD.105.066024",
         "journal": "Phys.Rev.D",
-        "image": "/static/3341dd2414b442ba53cbc929b739d05d/membrane-limits.svg"
+        "image": "/static/7ea2610a74da6d1f38117cc4c914617d/membrane-limits.svg"
     },
     {
         "id": 2,
@@ -67,7 +67,7 @@
         "arxiv": "https://arxiv.org/abs/1809.02547",
         "doi": "https://doi.org/10.1016/j.physletb.2019.01.002",
         "journal": "Phys.Lett.B",
-        "image": "/static/c885e67d10561a1843023d241d4372a5/ml-cohom.svg"
+        "image": "/static/5757332b35ad3fcdd4ad98341299e2cc/ml-cohom.png"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "arxiv": "https://arxiv.org/abs/1803.04989",
         "doi": "https://doi.org/10.1007/JHEP06(2018)052",
         "journal": "JHEP",
-        "image": "/static/10cd7fbcd8919e1b34ff9a191106d5a7/rsdc-cy.svg"
+        "image": "/static/26a78e26d4ec59fa468a8a200f7a8dc2/rsdc-cy.svg"
     },
     {
         "id": 9,
