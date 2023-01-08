@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import '../styles/global.css' // Import Tailwind styles
-import CVPage from './CVPage';
-import HomePage from './HomePage';
-import NavigationBar from './NavigationBar';
-import PublicationsPage from './PublicationsPage'
-import TalksPage from './TalksPage';
+import CVPage from '../components/CVPage';
+import HomePage from '../components/HomePage';
+import NavigationBar from '../components/NavigationBar';
+import PublicationsPage from '../components/PublicationsPage'
+import TalksPage from '../components/TalksPage';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
